@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --blue-color: rgb(16,32,79);
+    --button-hover: rgb(5,10,75);
+}
+body {
+    font-family: 'DM Sans', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+    height: 100vh;
+    
+}
+a {
+    padding: 10px;
+    background-color: #fff;
+    color: var(--blue-color);
+    border-radius: 4px;
+    border: 1px solid var(--blue-color);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+a:hover {
+    background-color: var(--blue-color);
+    color: #fff;
+    border-radius: 4px;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    background-color: #fff;
+    height: 400px;
+    text-align: center;
+    box-shadow: -3px 6px 20px #000;
+    border-radius: 2px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+.header img {
+    width: 300px;
+    height: 100px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+button {
+    border: 1px solid var(--blue-color);
+    margin: 10px;
+    border: none;
+    width: 230px;
+    height: 30px;
+    background-color: var(--blue-color);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+}
+button:hover {
+    background-color: #fff;
+    color: var(--button-hover);
+    border: 1px solid var(--blue-color);
+}
