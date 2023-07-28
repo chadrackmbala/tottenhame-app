@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js" integrity="sha512-69vv9jhQmV57vnri8OKCU0N5F85/6W1fFSjd349lyC5z7PViFNNCA4qOz12qc4pAcBIEJfCBjSDriy023suLtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="register.css">
 </head>
 
@@ -13,7 +14,28 @@
         <a href="index.html">
             <img src="/Images/tottenham-hotspur-logo.png" alt="logo">
         </a>
-        <ion-icon class="icon menu" name="menu-outline"></ion-icon>
+        <div class="navbar">
+            <ul>
+                <a href=""><li>About us</li></a>
+                <a href=""><li>Créations</li></a>
+                <a href=""><li>Trophées</li></a>
+                <a href=""><li>Services</li></a>
+            </ul>
+        </div>
+        <div class="toggle_btn"><ion-icon class="icon menu" name="menu-outline"></ion-icon></div>
+        <!-- <ion-icon class="icon menu" name="menu-outline"></ion-icon> -->
+        <div class="dropdown_menu ">
+            
+            <div class="image">
+                <img src="/Images/tottenham-hotspur-logo.png" alt="">
+            </div>
+            <ul>
+                <a href=""><li>About us</li></a>
+                <a href=""><li>Créations</li></a>
+                <a href=""><li>Trophées</li></a>
+                <a href=""><li>Services</li></a>
+            </ul>
+        </div>
     </header>
     <main>
         <h1>Enregistrement dans le meilleur Club de Football au monde</h1>
@@ -69,6 +91,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="register.js"></script>
 </body>
 
 </html>
